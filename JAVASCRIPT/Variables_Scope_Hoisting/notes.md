@@ -8,3 +8,6 @@ var is used in previous times but now no one uses its coz it has many disadvanta
 let - it is used when we have to constantly change the values 
 
 const- it cannot be changed . it is fixed once declared cannot be changed again.
+
+in nowadays we only use let and const . 
+let for constantly changing and const is not changing
