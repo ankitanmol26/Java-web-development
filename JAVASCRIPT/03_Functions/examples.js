@@ -72,12 +72,69 @@
 // let ans = factorial(5);
 // console.log(ans); // 120
 //or
-function factorial(n) {
-    if (n === 0 || n === 1) {
-        return 1;
-    }
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//         return 1;
+//     }
 
-    return n * factorial(n - 1);
-}
+//     return n * factorial(n - 1);
+// }
 
-console.log(factorial(5)); // 120
+// console.log(factorial(5)); // 120
+//---------------------------------------------------
+//count vowels 
+// function countVowels(str){
+//     let count = 0;
+//     const vowels = "aeiouAEIOU";
+//     for (let char of str){
+//         if(vowels.includes(char)){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(countVowels("ANKIT"))
+//--------------------------------------------------------------
+//finding the max of the array
+// function findMax(arr){
+//     let max = arr[0];
+//     for (let i = 1 ; i < arr.length; i++){
+//         if (arr[i]>max){
+//             max=arr[i];
+//         }
+//     }
+//     return max;
+// }
+// const numbers = [10,20,30,40];
+// console.log(findMax(numbers));
+
+//-=-------------------------------------------------------
+//calculating sum by using rest parameters
+// function sum(...numbers){
+//     let total = 0;
+//     for (let num of numbers){
+//         total = total + num;
+//     }
+//     return total;
+// }
+// console.log(sum(10,20));
+//--------------------------------------------------------
+//callback function example 
+// function greet(name, callback){
+//     console.log("hello, " + name);
+//     callback();
+// }
+// function sayBye(){
+//     console.log("goodbye");
+// }
+// greet ("ankit", sayBye);
+//---------------------------------------------------
+//Create a higher-order function that takes another function and executes it.
+// function execute(callback){
+//     callback();
+// }
+// function sayHello(){
+//     console.log("Hello , World!");
+// }
+// execute(sayHello);
+
